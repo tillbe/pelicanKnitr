@@ -1,0 +1,15 @@
+Title: 
+Date: 2015-05-18
+Tags: 
+Slug: 
+Summary: Stuff for feed
+
+```{r, echo = FALSE}
+library(knitr)
+library(ggplot2)
+theme_update(plot.background = element_rect(fill = "transparent", colour = NA))
+
+opts_chunk$set(dev.args=list(bg="transparent"))
+```
+
+HERE COMES THE TEXT
