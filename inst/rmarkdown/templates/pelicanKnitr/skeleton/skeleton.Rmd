@@ -12,6 +12,7 @@ library(knitcitations)
 cite_options(style="markdown", hyperlink="to.doc")
 
 library(ggplot2)
+theme_set(theme_grey(base_size = 18)) 
 theme_update(plot.background = element_rect(fill = "transparent", colour = NA))
 ```
 
