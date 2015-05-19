@@ -6,10 +6,18 @@ Summary: Stuff for feed
 
 ```{r, echo = FALSE}
 library(knitr)
+opts_chunk$set(dev.args=list(bg="transparent"))
+
+library(knitcitations)
+cite_options(style="markdown", hyperlink="to.doc")
+
 library(ggplot2)
 theme_update(plot.background = element_rect(fill = "transparent", colour = NA))
-
-opts_chunk$set(dev.args=list(bg="transparent"))
 ```
 
 HERE COMES THE TEXT
+
+## References
+```{r, results='asis', echo=FALSE}
+bibliography()
+```
